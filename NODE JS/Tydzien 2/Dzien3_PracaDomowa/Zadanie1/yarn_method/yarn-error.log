@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Fremen\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\Calibre2;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\Fremen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.5.1;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Fremen\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Fremen\AppData\Local\Programs\Python\Python39;C:\Users\Fremen\AppData\Local\Microsoft\WindowsApps;C:\SFML-2.5.1;C:\Program Files (x86)\mingw-w64;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;C:\Program Files\heroku\bin;C:\Program Files (x86)\GitHub CLI;C:\Use;C:\Users\Fremen\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Fremen\AppData\Local\Programs\Python\Python39;C:\Users\Fremen\AppData\Local\Microsoft\WindowsApps;C:\Users\Fremen\AppData\Local\Programs\Microsoft VS Code\bin;C:\SFML-2.5.1;C:\Program Files (x86)\mingw-w64;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;C:\Program Files\heroku\bin;C:\Program Files (x86)\GitHub CLI;C:\Users\Fremen\AppData\Roaming\npm;C:\xampp\mysql\bin;C:\Program Files\JetBrains\WebStorm 2021.1.2\bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:137023:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
