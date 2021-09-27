@@ -6,7 +6,7 @@ const {readFile} = require('fs').promises;
 
 (async () =>{
 try{
-    const data = await readFile('./index.js', 'utf-8');
+    const data = await readFile('./cipher.js', 'utf-8');
     console.log(data);
 }
 catch(err){
@@ -15,7 +15,7 @@ catch(err){
 })();
 
 
-// readFilePromised('./index.js', 'utf-8')
+// readFilePromised('./cipher.js', 'utf-8')
 //     .then(data=>{
 //         console.log(data)
 //     })
