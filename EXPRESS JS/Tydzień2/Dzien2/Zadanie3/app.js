@@ -1,10 +1,11 @@
 const express = require('express');
-const {calcRouter} = require('./routes/calc')
+const cookieParser = require('cookie-parser');
+const {cookieRouter} = require('./routes/cookie')
 const app = express()
 
 app.use(express.json())
 app.use(express.static('public'))
 
-app.use('/calc', calcRouter)
+app.use('/cookie', cookieRouter)
 
 app.listen(3000, 'localhost');

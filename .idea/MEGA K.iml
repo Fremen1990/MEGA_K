@@ -5,6 +5,11 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/EXPRESS JS/Tydzień1/Etap 3 Tydzień 1 Dzień 5 - Ciasteczka/Dzien5_Cookie/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/EXPRESS JS/Tydzień2/Dzien2/Zadanie1/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/EXPRESS JS/Tydzień2/Dzien2/Zadanie3/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/EXPRESS JS/Tydzień2/Dzien2/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/EXPRESS JS/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
