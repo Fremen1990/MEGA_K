@@ -2,7 +2,8 @@
   "name": "Zadanie3",
   "version": "1.0.0",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
   },
   "devDependencies": {
     "cookie-parser": "^1.4.5"
