@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ETAP 3 - EXPRESS JS/Tydzień2/Zadanie-konktursowe/devthomas-to-do-list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ETAP 3 - EXPRESS JS/Tydzień2/node-course free code camp/node-express-course" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ETAP 4 - BAZY DANYCH/Tydzień5/santa-claus-project" vcs="Git" />
   </component>
 </project>
