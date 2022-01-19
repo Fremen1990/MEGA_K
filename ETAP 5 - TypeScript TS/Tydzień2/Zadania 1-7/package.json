@@ -1,0 +1,24 @@
+{
+  "name": "zadania_ts_1_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node zadanie1.ts",
+    "start:dev1": "tsnd zadanie1.ts",
+    "start:dev2": "tsnd zadanie2.ts",
+    "start:dev3": "tsnd zadanie3.ts",
+    "start:dev4": "tsnd zadanie4.ts",
+    "start:dev5": "tsnd zadanie5.ts",
+    "start:dev6": "tsnd zadanie6.ts",
+    "start:dev7": "tsnd zadanie7.ts"
+
+  },
+  "keywords": [],
+  "author": "DevThomas",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8"
+  }
+}
