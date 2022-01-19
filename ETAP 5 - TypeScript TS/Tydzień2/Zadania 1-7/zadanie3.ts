@@ -1,30 +1,24 @@
-const data = [
-    {
-        name: 'Anna',
-        points: 1000,
-    },
-    {
-        name: 'Krzysztof',
-        points: 500,
-    },
-    {
-        name: 'Ola',
-        point: 0,
-    },
-    {
-        name: 'Marek',
-        points: 0,
-    },
-];
+// Nie zmieniaj poniższego kodu OPRÓCZ dodawania odpowiednich typów
 
-function incPoints(obj) {
-
+interface Person {
+    name:string
 }
 
-function totalPoints(ar) {
+// @ts-ignore
+class User implements Person{
+    name:string;
 
+    constructor(name:string) {
+        this.name = name;
+    }
 }
 
-function personWithMostPoints(ar) {
+const json:string = '{"name":"Jan"}';
+const {name} = JSON.parse(json) as User;
+let user:string | User = name === '' ? '' : `User ${name}`;
 
+if (user !== '') {
+    user = new User(user);
 }
+
+console.log(user);
