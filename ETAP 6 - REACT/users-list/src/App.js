@@ -5,6 +5,7 @@ import {ColorBox} from "./components/ColorBox/ColorBox";
 import {Dialog} from "./components/Dialog/Dialog";
 import {ConfirmDialog} from "./components/Dialog/ConfirmDialog";
 import {Button} from "./components/Button/Button";
+import {AgeGuesser} from "./components/AgeGuesser/AgeGuesser";
 
 function App() {
 	return (
@@ -14,9 +15,9 @@ function App() {
 				{/*  <ColorBox/>*/}
 
 				<div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum, dolores eius facere iure
-						nesciunt omnis quibusdam similique unde voluptas. Aliquam minus numquam porro quae quidem? At
-						esse laborum magni.</p>
+					{/*<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum, dolores eius facere iure*/}
+					{/*	nesciunt omnis quibusdam similique unde voluptas. Aliquam minus numquam porro quae quidem? At*/}
+					{/*	esse laborum magni.</p>*/}
 
 
 					{/*<Dialog title="Hi!!" children="Hi! Is that dialog component pass correctly the props? 😊"/>*/}
@@ -45,11 +46,15 @@ function App() {
 					{/*	Are you sure man?*/}
 					{/*</ConfirmDialog>*/}
 
-					<Button title="Click the button!" size="25"/>
+					{/*<Button title="Click the button!" size="25"/>*/}
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error exercitationem neque nihil
-						placeat possimus tempore totam. Alias deserunt dolor, eligendi incidunt iste nemo, omnis quaerat
-						quasi reiciendis, suscipit unde voluptatum!</p>
+					{/*<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error exercitationem neque nihil*/}
+					{/*	placeat possimus tempore totam. Alias deserunt dolor, eligendi incidunt iste nemo, omnis quaerat*/}
+					{/*	quasi reiciendis, suscipit unde voluptatum!</p>*/}
+
+
+					<AgeGuesser/>
+
 				</div>
 			</header>
 		</div>
