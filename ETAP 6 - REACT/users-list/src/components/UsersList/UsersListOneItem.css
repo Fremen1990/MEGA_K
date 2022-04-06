@@ -1,0 +1,50 @@
+.UsersListOneItem {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: all 0.5s;
+    border-radius:20px;
+}
+
+.UsersListOneItem:hover {
+    background: forestgreen;
+    cursor: pointer;
+}
+
+.UsersListOneItem__avatar {
+    margin: 5px 10px;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+    transition: all 0.5s;
+}
+
+.UsersListOneItem__avatar:hover {
+    transform: rotate(720deg)
+}
+
+.UsersListOneItem__usernameCard {
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.UsersListOneItem__usernameCard-userData p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.UsersListOneItem__usernameCard-delete {
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background: rgba(194, 11, 11, 0.64);
+    cursor:pointer;
+    justify-self: end;
+
+}
