@@ -12,7 +12,7 @@ export class GiftRecord implements GiftEntity {
     name:string;
     count:number;
 
-    constructor(obj: GiftRecord) {
+    constructor(obj: GiftEntity) {
         if (!obj.name || obj.name.length < 3 || obj.name.length > 55) {
             throw new ValidationError('Nazwa prezentu musi mieć od 3 do 55 znaków.');
         }
@@ -52,7 +52,7 @@ export class GiftRecord implements GiftEntity {
         return results.length === 0 ? null : new GiftRecord(results[0]);
     }
 
-     async delete(id:string):Promise<void> {
+     async delete():Promise<void> {
         await pool.execute("DELETE * FROM `gifts` WHERE `id` = :id", {
             id:this.id
         })

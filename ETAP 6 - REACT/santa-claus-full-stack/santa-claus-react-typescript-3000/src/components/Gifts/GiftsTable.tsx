@@ -1,12 +1,14 @@
 import React from 'react';
-import { GiftEntity } from 'types';
+import {GiftEntity} from 'types';
 import {GiftTableRow} from "./GiftTableRow";
 
 interface Props {
 	gifts: GiftEntity[];
+	onGiftsChange: () => void
+
 }
 
-export const GiftsTable = (props:Props) => (
+export const GiftsTable = (props: Props) => (
 
 	<table>
 		<thead>
@@ -15,20 +17,23 @@ export const GiftsTable = (props:Props) => (
 			<th>Name</th>
 			<th>Count</th>
 		</tr>
+		</thead>
 		<tbody>
 		{
-			props.gifts.map(gift=><GiftTableRow gift={gift} key={gift.id}/>)
+			props.gifts.map(gift => <GiftTableRow
+				gift={gift}
+				key={gift.id}
+				onGiftsChange={props.onGiftsChange}
+
+			/>)
 
 		}
 
 
 		</tbody>
-		</thead>
-
 
 
 	</table>
-
 
 
 )

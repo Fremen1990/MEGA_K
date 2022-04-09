@@ -4,13 +4,13 @@ import './App.css';
 import {Dialog} from "./components/Dialog/Dialog";
 import {ConfirmDialog} from "./components/Dialog/ConfirmDialog";
 import {CryptoPrice} from "./components/CryptoPrice/CryptoPrice";
-import {GiftsList} from "./components/Gifts/GiftsList";
+import {GiftsView} from "./views/GiftsView";
+import { Spinner } from './components/Spinner/Spinner';
 
 export const  App =() => {
   return (
 
-      <GiftsList/>
-
+    <GiftsView/>
 
     // <div className="App">
     //   {/*<header className="App-header">*/}
