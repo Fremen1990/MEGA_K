@@ -1,0 +1,22 @@
+.Dialog__container {
+    width: 80%;
+    max-width: 800px;
+    margin: 15px auto;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(233, 214, 214, 0.78);
+    padding: 15px;
+}
+
+.Dialog__title {
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 120%;
+    font-weight: bold;
+
+}
+
+.Dialog__content {
+    padding: 5px 15px 15px;
+
+}
