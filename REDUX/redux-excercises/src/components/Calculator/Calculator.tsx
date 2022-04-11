@@ -54,8 +54,6 @@ const clearHistory = () =>{
 				first={first}
 				second={second}
 				result={result}
-
-
 			/>
 			<CalculatorButtons
 				first={first}
@@ -64,9 +62,7 @@ const clearHistory = () =>{
 				addHistory={addHistory}
 				history={history}
 				clearHistory={clearHistory}
-
 			/>
-
 
 			<CalcatorHistory history={history}/>
 

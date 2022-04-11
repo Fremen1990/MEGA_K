@@ -8,7 +8,11 @@ import {Ref} from "./components/Ref";
 import {Reducer} from "./components/Reducer";
 import {Reducer2} from "./components/Reducer2";
 import {OwnHook} from "./components/OwnHook";
-import {Calculator} from "./components/Calculator/Calculator";
+// import {Calculator} from "./components/Calculator/Calculator";
+import {Calculator} from "./components/Calculator/context/Calculator";
+
+
+
 
 function App() {
 	return (
@@ -27,6 +31,8 @@ function App() {
 				{/*<Reducer2/>*/}
 				{/*<OwnHook/>*/}
 				<Calculator/>
+
+
 
 				{/*---------------------------------*/}
 
