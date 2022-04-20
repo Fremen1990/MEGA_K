@@ -1,0 +1,12 @@
+JEST installation for JavaScript only
+
+npm i -D jest
+script to package.json "test":"jest"
+npx jest --init
+
+
+
+JEST installation with TypeScript
+
+npm i -D ts-jest @types/jest
+npx ts-jest config:init
