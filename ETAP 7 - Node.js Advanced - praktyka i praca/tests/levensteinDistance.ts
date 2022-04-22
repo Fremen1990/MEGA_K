@@ -4,10 +4,6 @@ export const levensteinDistance = (a: string, b: string): number => {
 		throw new Error("Incorrect input type")
 	}
 
-	if(typeof  a === undefined || typeof b === undefined){
-		throw  new Error("input undefined")
-	}
-
 	a=a.toLowerCase()
 	b=b.toLowerCase()
 
@@ -31,3 +27,4 @@ export const levensteinDistance = (a: string, b: string): number => {
 	return matrix[a.length - 1][b.length - 1]
 }
 
+console.log(levensteinDistance("Tomek","Atomek"))

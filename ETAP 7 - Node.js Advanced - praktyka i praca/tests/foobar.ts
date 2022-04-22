@@ -10,8 +10,3 @@ export const  buildPerson = (firstName: string, lastName: string) => {
 		surname: lastName,
 	}
 }
-
-const max=45;
-const min=33;
-
-export const getBodyTemperature = ():number=>Math.random()*(max-min)+min;

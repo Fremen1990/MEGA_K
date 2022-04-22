@@ -59,3 +59,32 @@ test("Check if defined", ()=>{
 	expect("Ala kota ma").toBeDefined()
 })
 
+test("check regex 'to match' ", ()=>{
+
+	expect("Ala ma kot, a kot ale ma").toMatch(/kot/)
+
+})
+
+
+// test("foobar just test", ()=>{
+// 	expect(.2+.1).toEqual(.3)
+// })
+
+test("check to be close with rounfings", ()=>{
+	expect(.2+.1).toBeCloseTo(.3)
+})
+
+test("check if contain",()=>{
+
+	expect([1,3,6,5]).toContain(3)
+
+})
+
+
+test("check if contain",async ()=>{
+
+	expect([1,3,6,5])
+		.not
+		.toContain(666)
+
+})
